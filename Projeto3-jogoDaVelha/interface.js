@@ -10,6 +10,11 @@ function handleClick(event) {
 
     let square = event.target
     let position = square.id
+    
+    console.log(square)
+    console.log(position)
+
+
 
 
     if (handleMove(position)) {
